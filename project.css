@@ -1,0 +1,245 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+#zero{
+    width: auto;
+    height: 150px;
+    background-color: #F0F2F4;
+    padding-top: 100px;
+    font-size: large;
+    text-align: left;
+    padding-left: 390px;
+}
+.zero-icon{
+    margin-left: -200px;
+    margin-top: -50px;
+}
+#first{
+    background-color: #F0F2F4;
+    color: #0c0c0c;
+    width: auto;
+    height: 200px;
+    margin-bottom: 100px;
+    padding-left: 200px;
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+.first-img{
+    padding-left: 700px;
+    margin-top: -250px;
+}
+#ul{
+    list-style: none;
+    text-align: left;
+    padding: 1px;
+    margin-left: 1000px;
+    font-size: large;
+    word-spacing: 0px;
+}
+
+#total{
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+#total1{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 30px;
+}
+.cover-text {
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	width: 500px;
+    height: 250px;
+	padding-bottom: 0px;
+	background-color: #F0F2F4;
+	border-radius: px;
+}
+.cover-text1{
+    font-size: 18px;
+	color: black;
+	text-align: center;
+	width: 500px;
+    height: 250px;
+	padding-bottom: 0px;
+	background-color:lightblue;
+	border-radius: px;
+   
+
+}
+.cover-text2{
+    font-size: 18px;
+	color: black;
+	text-align: center;
+	width: 500px;
+    height: 250px;
+	padding-bottom: 0px;
+	background-color: #F0F2F4;
+	border-radius: px;
+}
+nav li {
+    display: inline;
+    margin: 50px ; /* Add margin-right to create space between items */
+    color: yellow;
+    padding: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0e0d0d;
+}
+
+
+
+main {
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.course {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#home{
+    margin: 0px;
+    padding: 10px;
+    margin-left: 70px;
+    color: black;
+    display: grid;
+    grid-template-columns:auto;
+	text-align: center;
+	width: 500px;
+    height: 150px;
+	padding-bottom: 30px;
+	background-color: #F0F2F4;
+	border-radius: px;
+
+}
+#course{
+    margin: 10px;
+    padding:10px;
+    color: black;
+}
+#about{
+    margin: 0px;
+    padding: 10px;
+    margin-left: 250px;
+    margin-bottom: 70PX;
+    border: px black;
+	text-align: center;
+	width: 500px;
+    height: 150px;
+	padding-bottom: 30px;
+	background-color:#F0F2F4;
+	border-radius: px;
+}
+#Mission{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 500px;
+    border: 1px black;
+    display: grid;
+	text-align: center;
+	width: 500px;
+    height: 150px;
+	padding-bottom: 30px;
+	background-color: #F0F2F4;
+	border-radius: px;
+
+}
+.started{
+    margin: 1px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color:#ccc;
+    width: 530px;
+   }
+.purchase{
+    margin: 0px;
+    padding: 0px;
+    border: 2px black;
+    border-radius: 0px;
+    background-color:#f3ecec;
+    width: 200px;
+    align: center;
+}
+
+
+/* Contact section styles */
+.contact5 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact5 p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.contact5-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact5-icon {
+    text-align: center;
+}
+
+.contact5-icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.contact5-icon p {
+    font-size: 1.2rem;
+    color: #555;
+}
+#contact5{
+    margin-top: 40px;
+    background-color: #F0F2F4;
+    padding: 20px;
+    margin-bottom: 40px;
+    height: 250px;
+}
+.whatapps{
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.contact-button {
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 600px;
+} 
